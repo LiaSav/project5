@@ -12,9 +12,9 @@
       rel="stylesheet"
       href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <title>New_project_5</title>
+    <title>new_project_5</title>
   </head>
   <body>
     <header>
@@ -50,7 +50,7 @@
       <div class="section3">
         <div class="container">
           <div class="row between">
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic1.png" alt="Макдоналдс — Газетный" />
               <figcaption>
                 <span class="first-row">Макдоналдс — Газетный</span><br />
@@ -58,7 +58,7 @@
                 25 - 35 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic2.png" alt="DimSum & Co — ЦДМ" />
               <figcaption>
                 <span class="first-row">DimSum & Co — ЦДМ</span><br />
@@ -66,7 +66,7 @@
                 40 - 50 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic3.png" alt="ДвижОК — Манежная" />
               <figcaption>
                 <span class="first-row">ДвижОК — Манежная</span> <br />
@@ -74,7 +74,7 @@
                 35 - 45 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic4.png" alt="НЯ — NHA" />
               <figcaption>
                 <span class="first-row">НЯ — NHA</span> <br />
@@ -82,7 +82,7 @@
                 30 - 40 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic5.png" alt="Точка Дзы — Цветной" />
               <figcaption>
                 <span class="first-row">Точка Дзы — Цветной</span> <br />
@@ -90,7 +90,7 @@
                 40 - 50 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic6.png" alt="Cinnabon" />
               <figcaption>
                 <span class="first-row">Cinnabon</span> <br />
@@ -98,7 +98,7 @@
                 25 - 35 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic7.png" alt="PIZZELOVE" />
               <figcaption>
                 <span class="first-row">PIZZELOVE</span> <br />
@@ -106,7 +106,7 @@
                 15 - 25 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic8.png" alt="Zю кафе — Тверская" />
               <figcaption>
                 <span class="first-row">Zю кафе — Тверская</span> <br />
@@ -114,7 +114,7 @@
                 25 - 35 мин
               </figcaption>
             </figure>
-            <figure class="image col-12 col-md-6 col-lg-4">
+            <figure class="image col-12 col-md-6 col-lg-4" onclick="href()">
               <img src="img/pic9.png" alt="Zю кафе — Тверская" />
               <figcaption>
                 <span class="first-row">Zю кафе — Тверская</span> <br />
@@ -199,13 +199,13 @@
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-4">
-                <p>&copy; 2017 Uber Technologies Inc.</p>
+                <p><a href="#">&copy; 2017 Uber Technologies Inc.</a></p>
               </div>
               <div class="col-12 col-md-4">
-                <p>Обработка персональных данных</p>
+                <p><a href="#">Обработка персональных данных</a></p>
               </div>
               <div class="col-12 col-md-4">
-                <p>Пользовательское соглашение</p>
+                <p><a href="#">Пользовательское соглашение</a></p>
               </div>
             </div>
           </div>
@@ -215,5 +215,10 @@
         </div>
       </div>
     </footer>
+    <script>
+      function href() {
+        document.location.href = 'https://liasav.github.io/project52';
+      }
+    </script>
   </body>
 </html>
