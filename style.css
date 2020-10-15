@@ -92,13 +92,18 @@ main {
 .image {
   padding: 0 0.5rem 2.25rem 0.5rem;
 }
+.image:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
 .image img {
   width: 100%;
   height: auto;
 }
 figcaption {
   padding-top: 0.9375rem;
-  font-size: 0, 875rem;
+  font-size: 0.875rem;
   line-height: 1.3125;
   color: #626262;
 }
@@ -144,7 +149,7 @@ option {
   font-size: 0.8125rem;
   line-height: 0.9375;
   padding-left: 3.125rem;
-  background: url(/img/language.svg) 10% 50% no-repeat;
+  background: url("../img/language.svg") 10% 50% no-repeat;
   cursor: pointer;
   color: #fff;
 }
@@ -189,14 +194,19 @@ ul.social-icons img:hover {
 .footer__section4 .container,
 .footer__section4 .row,
 .footer__section4 .col-12,
-.footer__section4 p {
+.footer__section4 p,
+.footer__section4 a {
   margin: 0;
   padding: 0;
 }
-.footer__section4 p {
+.footer__section4 p,
+.footer__section4 a {
   color: #fff;
   font-size: 0.6875rem;
   line-height: 0.8125;
+}
+.footer__section4 a {
+  text-decoration: none;
 }
 .pointer-fixed {
   position: fixed;
